@@ -19,11 +19,6 @@
 	<name>OpenMRS</name>
 	<description>Master project for the modules of OpenMRS</description>
 	<url>http://openmrs.org</url>
-	<properties>
-		<sonar.projectKey>saeidjam_openmrs-core-docker</sonar.projectKey>
-		<sonar.organization>saeidjam</sonar.organization>
-		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-	</properties>
 
 	<issueManagement>
 		<system>JIRA</system>
@@ -1121,16 +1116,15 @@
 
 		<customArgLineForTesting/>
 
-		<sonar.host.url>https://sonar.openmrs.org</sonar.host.url>
-  		<sonar.organization>henglicad</sonar.organization>
-  		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  		<sonar.organization>saeidjam</sonar.organization>
 
-		<!--<sonar.host.url>https://sonar.openmrs.org</sonar.host.url>
+
 		<sonar.issuesReport.html.enable>true</sonar.issuesReport.html.enable>
 		<sonar.issuesReport.lightModeOnly>true</sonar.issuesReport.lightModeOnly>
 		<sonar.issuesReport.console.enable>true</sonar.issuesReport.console.enable>
 		<sonar.analysis.mode>publish</sonar.analysis.mode>
-		-->
+		
 
 		<argLine>-Duser.language=en -Duser.region=US -Xmx2g ${customArgLineForTesting} -Djava.locale.providers=COMPAT</argLine>
 	</properties>
